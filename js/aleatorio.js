@@ -1,7 +1,15 @@
-const nomes = ["Fantasia", "Ficção Cientifica", "Finais felizes", "Finais em aberto", "leve e divertido","Intenso e dramático", "Romance de época"];
+const nomes = [
+    "Cachorro brincalhão",
+    "Gato independente",
+    "Pássaro cantador",
+    "Peixinho tranquilo",
+    "Coelho fofinho",
+    "Réptil exótico",
+    "Hamster aventureiro"
+];
 
-export function aleatorio (lista){
-    const posicao = Math.floor(Math.random()* lista.length);
+export function aleatorio(lista) {
+    const posicao = Math.floor(Math.random() * lista.length);
     return lista[posicao];
 }
 

@@ -1,107 +1,99 @@
 export const perguntas = [
     {
-        enunciado: "Você prefere destinos mais urbanos ou em meio à natureza?",
+        enunciado: "Você prefere pets mais ativos ou mais tranquilos?",
         alternativas: [
             {
-                texto: "Urbano", 
+                texto: "Ativos", 
                 afirmacao: [
-                    "Destinos urbanos são perfeitos pra quem ama movimento, cultura, gastronomia e vida noturna.",
-                    "Exemplos de viagens urbanas incríveis: Nova York, Tóquio, Paris, São Paulo, Londres."
+                    "Pets ativos adoram brincar, correr e gastar energia junto com você.",
+                    "Exemplos: Cachorro de porte médio/grande, papagaio, furão."
                 ],
                 proxima:1,
             },
             {
-                texto: "Natureza",
+                texto: "Tranquilos",
                 afirmacao: [
-                    "Viajar em contato com a natureza traz paz e conexão com o mundo ao seu redor.",
-                    "Exemplos: Chapada dos Veadeiros, Noruega, Fernando de Noronha, Amazônia, Islândia."
+                    "Pets tranquilos são ótimos companheiros para momentos de descanso e aconchego.",
+                    "Exemplos: Gato, peixinho, coelho calmo."
                 ],
                 proxima:2,
             }
         ]
     },
     {
-        enunciado: "Você curte mais clima quente ou frio durante a viagem?",
+        enunciado: "Você prefere um pet que precise sair para passear ou que fique mais em casa?",
         alternativas: [
             {
-                texto: "Quente",
+                texto: "Precisa passear",
                 afirmacao: [
-                    "Sol, mar, piscina e muita vitamina D! Viagens quentinhas são ideais pra relaxar e curtir.",
-                    "Exemplos: Maldivas, Rio de Janeiro, Tailândia, Grécia, Caribe."
+                    "Passeios são ótimos para criar vínculo e manter a saúde do pet e do tutor.",
+                    "Exemplos: Cachorro, cavalo, alguns tipos de aves."
                 ],
                 proxima:3,
             },
             {
-                texto: "Frio",
+                texto: "Mais caseiro",
                 afirmacao: [
-                    "Friozinho, chocolate quente, neve e casacos estilosos? Te entendo demais!",
-                    "Exemplos: Suíça, Canadá, Bariloche, Gramado, Finlândia."
+                    "Um pet que fica mais em casa é ideal para rotinas mais corridas.",
+                    "Exemplos: Gato, peixe, hamster."
                 ],
                 proxima:4,
             }
         ]
     },
     {
-        enunciado: "Você prefere fazer uma viagem mais relax ou cheia de aventura?",
+        enunciado: "Você prefere um pet mais independente ou que precise de muita atenção?",
         alternativas: [
             {
-                texto: "Relax total",
+                texto: "Independente",
                 afirmacao: [
-                    "Você merece descanso! Pra você, viagem boa é sombra e água fresca.",
-                    "Sugestões: Ilhas Maldivas, resort no nordeste, cruzeiros, spas na Toscana."
+                    "Pets independentes dão liberdade e se adaptam melhor a diferentes rotinas.",
+                    "Sugestões: Gato, tartaruga, peixe."
                 ],
                 proxima:5,
-
             },
             {
-                texto: "Aventura é comigo",
+                texto: "Precisa de atenção",
                 afirmacao: [
-                    "Se não tiver trilha, subida, esporte radical ou perrengue chique, nem quero!",
-                    "Exemplos: Machu Picchu, Patagônia, safári na África, Nova Zelândia, chapadas."
+                    "Pets que demandam atenção criam um vínculo intenso e cheio de carinho.",
+                    "Exemplos: Cachorro, papagaio, coelho."
                 ],
                 proxima:6,
             }
         ]
     },
     {
-        enunciado: "Você prefere viajar sozinho(a) ou acompanhado(a)?",
+        enunciado: "Você prefere um pet pequeno ou grande?",
         alternativas: [
             {
-                texto: "Sozinho(a)",
+                texto: "Pequeno",
                 afirmacao: [
-                    "Viajar solo é libertador! Você faz seu próprio roteiro e se redescobre no caminho.",
-                    "Destinos incríveis pra solo trips: Portugal, Argentina, Japão, Chile, Holanda."
+                    "Pets pequenos são ótimos para espaços menores e fáceis de carregar.",
+                    "Exemplos: Hamster, gato, cachorro de porte pequeno."
                 ],
                 proxima:7,
             },
             {
-                texto: "Acompanhado(a)",
+                texto: "Grande",
                 afirmacao: [
-                    "Compartilhar experiências é tudo! Viajar com alguém torna tudo ainda mais especial.",
-                    "Destinos perfeitos pra duplas ou grupos: Disney, Cancún, Itália, Grécia, road trips no Brasil."
+                    "Pets grandes ocupam espaço, mas compensam com presença e muito amor.",
+                    "Exemplos: Golden retriever, cavalo, pastor alemão."
                 ],
                 proxima:8,
             }
         ]
     },
     {
-        enunciado: "Você toparia um destino menos conhecido ou prefere os clássicos?",
+        enunciado: "Você quer um pet mais comum ou exótico?",
         alternativas: [
             {
-                texto: "Quero algo diferente",
+                texto: "Comum",
                 afirmacao: [
-                    "Explorar lugares fora do radar é viver aventuras únicas e autênticas!",
-                    "Sugestões: Albânia, Ilha de São Tomé, Eslovênia, Jalapão, Marrocos."
+                    "Os pets mais comuns são ótimos pela facilidade de cuidado e adaptação.",
+                    "Sugestões: Gato, cachorro, peixe."
                 ],
                 proxima:9,
             },
             {
-                texto: "Prefiro os clássicos",
-                afirmacao: [
-                    "Os clássicos são clássicos por um motivo: sempre encantam!",
-                    "Sugestões: Paris, Roma, Nova York, Londres, Buenos Aires."
-                ]
-            }
-        ]
-    }
-];
+                texto: "Exótico",
+                afirma
